@@ -1,0 +1,44 @@
+
+*{
+	margin: 0;
+}
+
+h1{
+	margin: 1.5%;
+	font-family: 'Pacifico', cursive;
+}
+
+img{
+width:30%;
+height: 250px;
+margin: 1.5%;
+}
+ hr{
+ 	width:30%;
+ 	margin: 1.5%;
+ 	border: 2px solid red;
+ }
+ @media	only screen and (max-width: 800px){
+ 	img {
+ 	 width:45%;
+ 	 margin: 2.1%;
+ 	}
+
+ 	hr{
+ 		width:45%;
+ 	 margin: 2.1%;
+ 	}
+
+ }
+
+  @media only screen and (max-width: 500px){
+  	img {
+  		width:97%;
+  	 margin: 1.5%;
+  	}
+  	 hr{
+ 		width:97%;
+  	 margin: 1.5%;
+ 	}
+ 	
+ }
